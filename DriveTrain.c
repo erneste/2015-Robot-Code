@@ -14,7 +14,7 @@ int x1 = joystick.joy1_x1;
 int x2 = joystick.joy1_x2;
 int y1 = joystick.joy1_y1;
 int rotclock = 0;
-int mordorleft = motor[frontLeft] + motor[frontLeft] + rotclock;
+int mordorleft = motor[frontLeft] + rotclock;
 const int power = 75;//motor power
 //factors to multiply power by
 
